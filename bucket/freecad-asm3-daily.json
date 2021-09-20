@@ -11,12 +11,16 @@
         }
     },
     "bin": [
-        "bin\\FreeCADCmd.exe",
-        "FreeCADCMD"
+        [
+            "bin\\FreeCADCmd.exe",
+            "FreeCADCMD"
+        ]
     ],
     "shortcuts": [
-        "bin\\FreeCADLink.exe",
-        "FreeCADLink"
+        [
+            "bin\\FreeCADLink.exe",
+            "FreeCADLink"
+        ]
     ],
     "checkver": {
         "github": "https://github.com/realthunder/FreeCAD_assembly3/releases/tag/0.11",
