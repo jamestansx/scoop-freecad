@@ -1,0 +1,29 @@
+{
+    "version": "0.11",
+    "description": "Experimental attempt for the next generation assembly workbench for FreeCAD (daily branch)",
+    "homepage": "https://github.com/realthunder/FreeCAD_assembly3",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/realthunder/FreeCAD_assembly3/releases/download/0.11/FreeCAD-asm3-Daily-Win64-Py3-Qt5-20210916.7z",
+            "hash": "F46AED47F47ABB76A7D456F08FB4083C8097D88D900473618CC919A062CE3555"
+        }
+    },
+    "pre-install": "Remove-Item \"$dir\" -Recurse -Force",
+    "bin": "bin\\FreeCADLink.exe",
+    "shortcuts": [
+        "bin\\FreeCADLink.exe",
+        "FreeCAD"
+    ],
+    "checkver": {
+        "github": "https://github.com/realthunder/FreeCAD_assembly3",
+        "regex": "releases/download//FreeCAD-asm3-(?:Stable|Daily)-Win64-Py3-Qt5-[\\d.]+\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/realthunder/FreeCAD_assembly3/releases/download/$version/FreeCAD-$matchBuild.7z"
+            }
+        }
+    }
+}
