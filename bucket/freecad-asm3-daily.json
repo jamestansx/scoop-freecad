@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/realthunder/FreeCAD_assembly3/releases/download/0.11/FreeCAD-$version.7z",
+                "url": "https://github.com/realthunder/FreeCAD_assembly3/releases/download/0.11/FreeCAD-asm3-Daily-Win64-Py3-Qt5-$version.7z",
                 "extract_dir": "FreeCAD-asm3-Daily-Win64-Py3-Qt5-$version"
             }
         }
