@@ -5,11 +5,11 @@ The [freecad](https://www.freecadweb.org/) bucket for [Scoop](http://scoop.sh/).
 
 ---
 
-[TOC]
+- [scoop-freecad](#scoop-freecad)
+  - [List of apps](#list-of-apps)
+  - [Installation](#installation)
 
----
-
-## List of apps:
+## List of apps
 
 | app                        | status             |
 | -------------------------- | ------------------ |
