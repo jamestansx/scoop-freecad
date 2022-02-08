@@ -9,14 +9,13 @@ The [freecad](https://www.freecadweb.org/) bucket for [Scoop](http://scoop.sh/).
   - [List of apps](#list-of-apps)
   - [Installation](#installation)
 
+
 ## List of apps
 
 | app                        | status             |
 | -------------------------- | ------------------ |
-| freecad_assembly3 (daily)  | :heavy_check_mark: |
-| freecad_assembly3 (stable) | :heavy_check_mark: |
-| freecad (stable)           | :o:                |
-| freecad (weekly build)     | :o:                |
+| LinkStage3 _Stable_  | :heavy_check_mark: |
+| LinkStage3 _Daily_ | :heavy_check_mark: |
 
 
 ## Installation
