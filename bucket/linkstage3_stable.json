@@ -1,13 +1,13 @@
 {
-    "version": "20220111",
+    "version": "20220407",
     "description": "Experimental attempt for the next generation assembly workbench for FreeCAD (stable branch)",
     "homepage": "https://github.com/realthunder/FreeCAD_assembly3",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/realthunder/FreeCAD_assembly3/releases/download/0.11/FreeCAD-asm3-Stable-Win64-Py3-Qt5-20220111.7z",
-            "extract_dir": "FreeCAD-asm3-Stable-Win64-Py3-Qt5-20220111",
-            "hash": "67a3ad00aa03836ae608f2e7e3f252cfc9c42131880558504a41d9a755251e2d"
+            "url": "https://github.com/realthunder/FreeCAD_assembly3/releases/download/0.11/FreeCAD-asm3-Stable-Win64-Py3-Qt5-20220407.7z",
+            "extract_dir": "FreeCAD-asm3-Stable-Win64-Py3-Qt5-20220407",
+            "hash": "64c9a91eb1a65f49e92c90f65efda2e4522d29d0df9a49d83e6700e73bd10f9c"
         }
     },
     "bin": [
